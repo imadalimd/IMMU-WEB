@@ -7,6 +7,7 @@
 - 🔍 **Search Videos** & show results in Termux
 - 📺 **Analyze Channel Videos** - get first 5 videos with details
 - 🎯 **Full Automation Test** - complete dream test
+- 📊 **Advanced Logging** - all actions logged to `logs/automation.log`
 
 ## 🔧 reCAPTCHA Bypass Methods
 1. **Stealth Mode** - Remove automation traces
