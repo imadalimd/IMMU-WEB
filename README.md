@@ -1,24 +1,18 @@
-# IMMU-WEB 🤖 YouTube Termux Automation
+# YouTube Automation for Kali Linux
 
-**Advanced YouTube automation with 5 reCAPTCHA bypass methods for Termux**
+## 🚀 100% WORKING FEATURES:
+- ✅ Real YouTube login with credentials
+- ✅ reCAPTCHA handling (manual solve)
+- ✅ Browser automation with undetected-chromedriver
+- ✅ Post-login actions and searches
 
-## 🚀 Features
-- ✅ **Auto Login to YouTube** with 5 reCAPTCHA bypass methods
-- 🔍 **Search Videos** & show results in Termux
-- 📺 **Analyze Channel Videos** - get first 5 videos with details
-- 🎯 **Full Automation Test** - complete dream test
-- 📊 **Advanced Logging** - all actions logged to `logs/automation.log`
+## 🔧 REQUIREMENTS:
+- Kali Linux
+- Google Chrome
+- Python 3.8+
 
-## 🔧 reCAPTCHA Bypass Methods
-1. **Stealth Mode** - Remove automation traces
-2. **Mobile Emulation** - Switch to mobile user agents  
-3. **Cookie Session** - Cookie manipulation
-4. **IP Rotation** - Different endpoints simulation
-5. **Time-based Bypass** - Wait for auto-solve
-
-## 📥 Installation
+## 🎯 USAGE:
 ```bash
-git clone https://github.com/imadalimd/IMMU-WEB
-cd IMMU-WEB
-chmod +x setup.sh
-./setup.sh
+chmod +x setup_kali.sh
+./setup_kali.sh
+python kali_login.py
