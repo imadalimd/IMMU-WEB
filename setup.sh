@@ -21,17 +21,13 @@ pkg install -y python git wget curl
 echo -e "${YELLOW}🌐 Installing Chromium...${NC}"
 pkg install -y chromium
 
-# Install Python packages
+# Install Python packages (without undetected-chromedriver)
 echo -e "${YELLOW}🐍 Installing Python packages...${NC}"
-pip install selenium undetected-chromedriver requests beautifulsoup4 colorama
+pip install selenium requests beautifulsoup4 colorama
 
 # Create necessary directories
 echo -e "${YELLOW}📁 Creating directories...${NC}"
 mkdir -p scripts utils data logs
-
-# Make scripts executable
-chmod +x setup.sh
-chmod +x run.py
 
 echo -e "${GREEN}✅ Setup completed successfully!${NC}"
 echo -e "${GREEN}🚀 Now run: python run.py${NC}"
