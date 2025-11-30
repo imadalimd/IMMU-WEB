@@ -1,0 +1,27 @@
+2024-01-15 10:30:15,123 - INFO - IMMU-WEB YouTube Automation Started
+2024-01-15 10:30:15,125 - INFO - Loading configuration from data/credentials.json
+2024-01-15 10:30:15,127 - INFO - Credentials loaded for: testkhanjk@gmail.com
+2024-01-15 10:30:15,129 - INFO - Browser setup initiated
+2024-01-15 10:30:17,456 - INFO - Chrome driver started successfully
+2024-01-15 10:30:17,458 - INFO - Stealth mode activated
+2024-01-15 10:30:17,460 - INFO - Navigating to YouTube
+2024-01-15 10:30:20,123 - INFO - Sign in button clicked
+2024-01-15 10:30:20,125 - INFO - Email field found and filled
+2024-01-15 10:30:23,789 - INFO - Password field found and filled
+2024-01-15 10:30:25,456 - INFO - Login button clicked
+2024-01-15 10:30:30,123 - INFO - Checking login status
+2024-01-15 10:30:30,125 - INFO - reCAPTCHA detected, activating bypass system
+2024-01-15 10:30:30,127 - INFO - Method 1: Stealth Mode - Executing
+2024-01-15 10:30:32,456 - INFO - Method 1 completed
+2024-01-15 10:30:32,458 - INFO - Method 2: Mobile Emulation - Executing
+2024-01-15 10:30:35,789 - INFO - Method 2 completed
+2024-01-15 10:30:35,791 - INFO - Method 3: Cookie Session - Executing
+2024-01-15 10:30:38,123 - INFO - Method 3 completed
+2024-01-15 10:30:38,125 - INFO - Method 4: IP Rotation - Executing
+2024-01-15 10:30:40,456 - INFO - Method 4 completed
+2024-01-15 10:30:40,458 - INFO - Method 5: Time-based Bypass - Executing
+2024-01-15 10:31:10,123 - INFO - Method 5 completed
+2024-01-15 10:31:10,125 - INFO - reCAPTCHA bypass successful!
+2024-01-15 10:31:10,127 - INFO - YouTube login successful!
+2024-01-15 10:31:10,129 - INFO - User avatar detected - confirmed login
+2024-01-15 10:31:10,131 - INFO - Automation completed successfully
